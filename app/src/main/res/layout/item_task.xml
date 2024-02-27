@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_completed"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/text_view_name"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/check_box_completed"
+                android:layout_toLeftOf="@+id/label_priority"
+                android:layout_height="wrap_content"
+
+
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_bold"
+                tools:text="Example Item Example" />
+
+            <TextView
+                android:id="@+id/text_view_description"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/check_box_completed"
+                android:layout_toLeftOf="@+id/label_priority"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_name"
+
+
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:text="Example Item Example" />
+
+
+            <TextView
+                android:id="@+id/text_view_syn"
+                android:layout_width="100dp"
+                android:layout_toRightOf="@+id/check_box_completed"
+                android:padding="5dp"
+                android:textSize="10sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_description"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:background="@drawable/round_tv_round"
+                android:textColor="@color/white"
+                android:text="Not synced" />
+
+            <ImageView
+                android:id="@+id/label_priority"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                app:tint="@android:color/holo_red_light"
+                android:src="@drawable/ic_priority" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

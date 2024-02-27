@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="please_enter_details">Please enter your details, It’s easy !</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_condition">Must be at least 8 characters</string>
+    <string name="already_have_account">Already have an account ?</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up_google">Sign up with Google</string>
+    <string name="navigation_sign_up">Sign Up</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1184712445",
+    "project_id": "smart-to-do-7ab99",
+    "storage_bucket": "smart-to-do-7ab99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1184712445:android:3837adaa66622f93f4e094",
+        "android_client_info": {
+          "package_name": "com.reddot.mvvmtodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1184712445-q52stunbtqornp8krgaha4k3jhh2sblv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpIyd6U6FwJOK1dIId_iq4OcujdkY_7m0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1184712445-q52stunbtqornp8krgaha4k3jhh2sblv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1184712445-ep22g7o13i394ff6rovb4l7dg8tnpkqg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "reddot.smart-to-do"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
