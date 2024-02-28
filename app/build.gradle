@@ -6,7 +6,7 @@ plugins {
     id 'dagger.hilt.android.plugin'
     id 'androidx.navigation.safeargs.kotlin'
     id 'com.google.gms.google-services'
-    id 'com.google.firebase.crashlytics'
+   
 }
 
 android {
@@ -106,12 +106,11 @@ dependencies {
     implementation "com.google.android.gms:play-services-auth-api-phone:18.0.1"
     implementation 'com.google.android.gms:play-services-auth:20.3.0'
     implementation 'com.google.firebase:firebase-auth'
-    implementation(platform("com.google.firebase:firebase-bom:20.0.1"))
+   /// implementation(platform("com.google.firebase:firebase-bom:20.0.1"))
 
     // Add the dependencies for the Crashlytics and Analytics libraries
     // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation("com.google.firebase:firebase-crashlytics")
-    implementation("com.google.firebase:firebase-analytics")
+
 }
 apply plugin: 'com.google.gms.google-services'
 
